@@ -1,24 +1,75 @@
 aid: linas-matkasse
 name: Linas Matkasse
-description: 'Linas Matkasse is a company surfaced as a portfolio company of creandum and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned
+  ingredients and nutritionally calculated recipes to customers'' homes each week. Customers pick from
+  more than 150 weekly recipes across concepts such as Chef''s Choice, Family Favorites, Quick & Easy,
+  Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday
+  night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit
+  group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in
+  Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription
+  e-commerce storefront and a "Mina Sidor" customer account area; it publishes no public developer
+  portal, API documentation, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.linasmatkasse.se/images/og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - creandum
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Food and Beverage
+- E-Commerce
+- Subscription
+- Meal Kits
+- Grocery Delivery
+- Sweden
+- Scandinavia
 apis: []
+common:
+- type: Website
+  url: https://www.linasmatkasse.se/
+- type: Blog
+  url: https://www.linasmatkasse.se/blogg
+- type: Support
+  url: https://www.linasmatkasse.se/kundservice
+- type: SignUp
+  url: https://www.linasmatkasse.se/logga-in
+- type: TermsOfService
+  url: https://www.linasmatkasse.se/villkor
+- type: PrivacyPolicy
+  url: https://www.linasmatkasse.se/integritetspolicy
+- type: GitHubOrganization
+  url: https://github.com/cheffelo
+- type: LLMsTxt
+  url: llms/linas-matkasse-llms.txt
+- type: Packages
+  url: packages/linas-matkasse-packages.yml
+- type: DomainSecurity
+  url: security/linas-matkasse-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
