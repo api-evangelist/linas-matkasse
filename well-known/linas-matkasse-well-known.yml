@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of https://www.linasmatkasse.se and https://cheffelo.com
+host: https://www.linasmatkasse.se
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+  note: 'Allows all user agents; disallows /mina-sidor/ (customer account area) and *print=true.
+    No AI/agent-specific directives, no sitemap declaration.'
+additional_hosts:
+- host: https://cheffelo.com
+  note: Parent-group corporate and investor-relations site.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: 'No /.well-known/ discovery surface is published on either the Linas Matkasse storefront or the
+  Cheffelo group site. api.linasmatkasse.se, developer.linasmatkasse.se, api.cheffelo.com and
+  developers.cheffelo.com do not resolve. No WellKnown pointer is wired into apis.yml because no
+  document returned 200.'

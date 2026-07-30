@@ -1,0 +1,55 @@
+# Linas Matkasse
+
+> Swedish meal-kit subscription service delivering pre-portioned ingredients and nutritionally
+> calculated recipes to customers' homes each week. Operated by Cheffelo, a Scandinavian meal-kit
+> group listed on Nasdaq First North Growth Market. Linas Matkasse publishes no public API,
+> developer portal, or SDKs — this file describes the public consumer surface only.
+
+generated: 2026-07-19
+method: generated
+source: apis.yml + live probes of https://www.linasmatkasse.se and https://cheffelo.com
+
+## About
+
+- [Linas Matkasse](https://www.linasmatkasse.se/): Weekly meal-kit boxes with 150+ recipes across
+  Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and
+  Lactose-Free concepts. Orders can be changed until Tuesday 23:59 for Saturday-to-Monday delivery.
+- [Cheffelo (parent group)](https://cheffelo.com/): Operates Linas Matkasse (Sweden), Godtlevert
+  (Norway) and RetNemt (Denmark); ~17 million meals delivered annually. HQ Löfströms Allé 5,
+  172 66 Sundbyberg, Sweden.
+- [Press room](https://cheffelo.com/press-room/): Group press releases and media contacts.
+
+## Customer surface
+
+- [Sign in / Mina Sidor](https://www.linasmatkasse.se/logga-in): Customer account area. Disallowed
+  to crawlers via robots.txt (/mina-sidor/).
+- [Customer service](https://www.linasmatkasse.se/kundservice): kundservice@linasmatkasse.se,
+  +46 2-001 234 05.
+- [Blog](https://www.linasmatkasse.se/blogg): Recipes and food content.
+
+## Policies
+
+- [Terms and conditions](https://www.linasmatkasse.se/villkor)
+- [Privacy policy](https://www.linasmatkasse.se/integritetspolicy)
+- [Cookie policy](https://www.linasmatkasse.se/cookiepolicy)
+
+## Engineering
+
+- [GitHub organization](https://github.com/cheffelo): 11 public repositories, all internal
+  tooling or hiring exercises. No published client libraries or API specifications.
+- [Careers](https://cheffelo.onecruiter.com)
+
+## API status
+
+There is no public Linas Matkasse or Cheffelo API. As of 2026-07-19:
+no developer portal, no OpenAPI/AsyncAPI/GraphQL specification, no SDKs or CLI, no MCP server,
+no /.well-known/ discovery documents, no security.txt, no llms.txt, and no published bug-bounty
+or trust-center program. api.linasmatkasse.se, developer.linasmatkasse.se, api.cheffelo.com and
+developers.cheffelo.com do not resolve.
+
+## Artifacts in this repo
+
+- [Domain security probe](security/linas-matkasse-domain-security.yml): TLSv1.3, HSTS
+  (max-age 63072000), SPF and DMARC (p=reject) present; no DNSSEC, no CAA.
+- [Well-known probe](well-known/linas-matkasse-well-known.yml)
+- [Packages search](packages/linas-matkasse-packages.yml)

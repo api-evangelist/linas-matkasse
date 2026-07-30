@@ -1,0 +1,13 @@
+generated: '2026-07-19'
+method: searched
+source: 'npm registry search (linasmatkasse, cheffelo, @cheffelo scope), PyPI (cheffelo,
+  linasmatkasse), GitHub org https://github.com/cheffelo (11 public repos), and the
+  linasmatkasse.se site'
+packages: []
+notes: 'No first-party client libraries or SDKs are published for Linas Matkasse or its parent group
+  Cheffelo. The npm @cheffelo scope is unclaimed and PyPI returns 404 for both names. The public
+  GitHub org github.com/cheffelo carries only engineering-hiring exercises (take-home-test,
+  dotnet-assignment, fe-take-home-test-2026), a hackathon frontend, a fork of Segment''s
+  consent-manager, an eslint plugin, an internal tech-yearbook, a forked flutter-action, and yolo-api
+  (a demo API exposing a YOLO model) — none of which is a client library for a Linas Matkasse or
+  Cheffelo API. No SDKs pointer is wired into apis.yml.'
