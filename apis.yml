@@ -10,6 +10,17 @@ description: 'Linas Matkasse is a Swedish meal-kit subscription service that del
   e-commerce storefront and a "Mina Sidor" customer account area; it publishes no public developer
   portal, API documentation, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
