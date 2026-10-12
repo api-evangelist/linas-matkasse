@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/linas-matkasse/integrations
+- https://n8n.io/integrations/linas-matkasse/
+- https://composio.dev/toolkits/linas-matkasse
+- https://monid.ai/tools/linas-matkasse
+checked:
+- https://composio.dev/toolkits/linas-matkasse
+- https://monid.ai/tools/linas-matkasse
+- https://n8n.io/integrations/linas-matkasse/
+- https://zapier.com/apps/linas-matkasse/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
