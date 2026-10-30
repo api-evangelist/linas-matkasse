@@ -64,23 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery.
+Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription e-commerce storefront and a "Mina Sidor" customer account area; it publishes no public developer portal, API documentation, or SDKs.
 
-The brand is operated by [Cheffelo](https://cheffelo.com/), a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark, delivering roughly 17 million meals a year.
+**Areas:** Company · Consumer · Food and Beverage · E-Commerce · Subscription · Meal Kit · Grocery Delivery · Sweden · Scandinavia
 
-Backed by: creandum
+## Linas Matkasse on APIs.io
 
-## API status
+Everything profiled for Linas Matkasse is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/linas-matkasse/](https://apis.io/providers/linas-matkasse/)** — or go straight to one of the APIs or properties below.
 
-Linas Matkasse runs a consumer subscription storefront and a "Mina Sidor" customer account area. As of 2026-07-19 it publishes **no public API**: no developer portal, no OpenAPI/AsyncAPI/GraphQL specification, no SDKs or CLI, no MCP server, no `/.well-known/` discovery documents, and no published vulnerability-disclosure or trust-center program. `api.linasmatkasse.se`, `developer.linasmatkasse.se`, `api.cheffelo.com` and `developers.cheffelo.com` do not resolve.
+### Published properties
 
-The parent group's public GitHub org, [github.com/cheffelo](https://github.com/cheffelo), holds only internal tooling and engineering hiring exercises — no client libraries or API specifications.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/linas-matkasse-domain-security.yml` | probed |
-| Well-known probe | `well-known/linas-matkasse-well-known.yml` | searched (all 404) |
-| Packages / SDKs | `packages/linas-matkasse-packages.yml` | searched (none found) |
-| llms.txt | `llms/linas-matkasse-llms.txt` | generated |
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Linas Matkasse Domain Security](https://apis.io/security/linas-matkasse/linas-matkasse-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.linasmatkasse.se/)
+- [Sign up](https://www.linasmatkasse.se/logga-in)
+- [Support](https://www.linasmatkasse.se/kundservice)
+- [Blog](https://www.linasmatkasse.se/blogg)
+- [Terms of service](https://www.linasmatkasse.se/villkor)
+- [Privacy policy](https://www.linasmatkasse.se/integritetspolicy)
+- [GitHub](https://github.com/cheffelo)
+
+## API Evangelist rating
+
+**Kin Score 13.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/linas-matkasse/](https://apis.io/providers/linas-matkasse/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Linas Matkasse: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/linas-matkasse/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
